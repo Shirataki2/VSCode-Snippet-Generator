@@ -170,6 +170,17 @@ class Index extends Vue {
     }
   }
 
+  mounted () {
+    const payload = localStorage.getItem('data')
+    if (payload) {
+      try {
+        const data = JSON.parse(payload)
+        this.snippets = data
+      } catch {
+      }
+    }
+  }
+
   load () {
     const payload = localStorage.getItem('data')
     if (payload) {
@@ -198,6 +209,7 @@ class Index extends Vue {
   truncate () {
     if (!confirm('All snippet data will be deleted.\nAre you sure you want to continue?')) { return }
     this.snippets = [{ name: '', trigger: '', body: '' }]
+    localStorage.removeItem('data')
   }
 }
 export default Index
