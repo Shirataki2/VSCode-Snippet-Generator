@@ -122,6 +122,9 @@ class Index extends Vue {
   save () {
     const payload = JSON.stringify(this.snippets)
     localStorage.setItem('data', payload)
+    this.snackbarColor = 'primary'
+    this.snackbarContent = 'Saved!'
+    this.snackbarEnabled = true
   }
 
   upload () {

@@ -1,6 +1,6 @@
 <template>
   <v-expansion-panel>
-    <v-expansion-panel-header>
+    <v-expansion-panel-header class="monospaced" style="font-size: 1.2em">
       <div>
         <v-btn icon class="ml-n3" @click="$emit('remove')">
           <v-icon>mdi-close</v-icon>
