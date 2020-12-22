@@ -29,4 +29,8 @@
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
+
+html {
+  overflow-y: hidden;
+}
 </style>

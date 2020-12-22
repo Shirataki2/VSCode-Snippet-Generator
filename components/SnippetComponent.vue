@@ -29,6 +29,7 @@
             v-model="_snippet.body"
             label="Body"
             class="monospaced"
+            rows="10"
           />
         </v-col>
       </v-row>

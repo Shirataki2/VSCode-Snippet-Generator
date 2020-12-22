@@ -1,4 +1,7 @@
-# snippets-generator
+# VSCode Snippets Generator
+
+[VSCode Snippets Generator](https://boring-ritchie-02dd60.netlify.app/) is a tiny Nuxt app to help you create VSCode snippets.
+
 
 ## Build Setup
 
