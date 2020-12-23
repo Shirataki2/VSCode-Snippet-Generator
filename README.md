@@ -1,6 +1,6 @@
 # VSCode Snippets Generator
 
-[VSCode Snippets Generator](https://snippets-generator.netlify.app/) is a tiny Nuxt app to help you create VSCode snippets.
+[VSCode Snippets Generator](https://snippets-generator.app/) is a tiny Nuxt app to help you create VSCode snippets.
 
 
 ## Build Setup

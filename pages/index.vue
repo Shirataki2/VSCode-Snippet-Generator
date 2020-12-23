@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col col="12">
+    <v-col col="12" lg="10" xl="8" offset-lg="1" offset-xl="2">
       <Controller
         @generate="generate"
         @save="save"
@@ -8,7 +8,7 @@
         @load="load"
         @truncate="truncate"
       />
-      <v-dialog v-model="dialog">
+      <v-dialog v-model="dialog" max-width="1000">
         <v-card>
           <v-card-title>
             Generated JSON
