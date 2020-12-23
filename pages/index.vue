@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col col="12" lg="10" xl="8" offset-lg="1" offset-xl="2">
+    <v-col col="12" lg="10" xl="8">
       <Controller
         @generate="generate"
         @save="save"
