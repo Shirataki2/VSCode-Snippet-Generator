@@ -31,6 +31,11 @@
 }
 
 html {
-  overflow-y: hidden;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
 }
 </style>
